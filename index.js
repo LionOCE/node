@@ -17,4 +17,4 @@ client.on('ready', () => {
     console.log('Ready!');
 });
 
-client.login(token);
+client.login(process.env.BOT_TOKEN);
